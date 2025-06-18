@@ -1,9 +1,9 @@
 import { canLevelUp } from '../lib/levelling.js'
 
 const roles = {
-'*Aventurero(a) - Novato(a) V*': 0,
-'*Aventurero(a) - Novato(a) IV*': 2,
-'*Aventurero(a) - Novato(a) III*': 4,
+'*Aventurero(a) - Novato(a) V*': 1,
+'*Aventurero(a) - Novato(a) IV*': 3,
+'*Aventurero(a) - Novato(a) III*': 5,
 '*Aventurero(a) - Novato(a) II*': 6,
 '*Aventurero(a) - Novato(a) I*': 8,
 '*Aprendiz del Camino V*': 10,
