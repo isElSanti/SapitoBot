@@ -16,7 +16,7 @@ if (chat.antiLink && isGroupLink && !isAdmin) {
 const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`;
 if (m.text.includes(linkThisGroup)) return !0;
 if (!isBotAdmin) return;
-await conn.sendMessage(m.chat, { text: `> ✦ Se ha eliminado a ${user} del grupo por Anti-Link...`, mentions: [m.sender] }, { quoted: m, ephemeralExpiration: 24 * 60 * 100, disappearingMessagesInChat: 24 * 60 * 100 });
+await conn.sendMessage(m.chat, { text: `> se elimino a ${user} por enviar un enlace...`, mentions: [m.sender] }, { quoted: m, ephemeralExpiration: 24 * 60 * 100, disappearingMessagesInChat: 24 * 60 * 100 });
 await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet } });
 let responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
 if (responseb[0].status === "404") return;
