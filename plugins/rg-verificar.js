@@ -19,8 +19,8 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   if (!age) return m.reply(`『✦』La edad no puede estar vacía.`)
   if (name.length >= 100) return m.reply(`『✦』El nombre es demasiado largo.`)
   age = parseInt(age)
-  if (age > 1000) return m.reply(`『✦』Wow el abuelo quiere jugar al bot.`)
-  if (age < 5) return m.reply(`『✦』hay un abuelo bebé jsjsj.`)
+  if (age > 1000) return m.reply(`『✦』Tenemos a un abuelo aqui.`)
+  if (age < 5) return m.reply(`『✦』Miren un bebe usando el bot jsjsj.`)
   user.name = name + '✓'.trim()
   user.age = age
   user.regTime = + new Date      
@@ -31,8 +31,8 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 20)
 let regbot = `✦ 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗔 𝗗 𝗢 ✦\n`
 regbot += `•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•\n`
-regbot += `> ᰔᩚ Nombre » ${name}\n`
-regbot += `> ✎ Edad » ${age} años\n`
+regbot += `> • Nombre » ${name}\n`
+regbot += `> • Edad » ${age} \n`
 regbot += `•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•\n`
 regbot += `❀ 𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:\n`
 regbot += `> • ⛁ *${moneda}* » 40\n`
