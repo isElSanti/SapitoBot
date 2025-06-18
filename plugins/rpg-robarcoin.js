@@ -9,11 +9,11 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
   else who = m.chat;
   if (!who) {
-  conn.reply(m.chat, `${emoji} Debes mencionar a alguien para intentar robarle.`, m)
+  conn.reply(m.chat, `${emoji} Tienes queencionar a alguien para intentar robarle.`, m)
   return;
     };
   if (!(who in global.db.data.users)) { 
-  conn.reply(m.chat, `${emoji2} El usuario no se encuentra en mi base de datos.`, m)
+  conn.reply(m.chat, `${emoji2} Este usuario no se encuentra en mi base de datos.`, m)
 return;
   }
   const users = global.db.data.users[who];
