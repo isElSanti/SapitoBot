@@ -9,7 +9,7 @@ const isCommand2 = /^(stop|pausarai|pausarbot)$/i.test(command)
 const isCommand3 = /^(bots|sockets|socket)$/i.test(command)   
 
 async function reportError(e) {
-await m.reply(`${msm} Ocurrió un error.`)
+await m.reply(`${msm} error.`)
 console.log(e)
 }
 
