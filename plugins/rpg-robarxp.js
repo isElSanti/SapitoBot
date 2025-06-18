@@ -13,12 +13,12 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   return;
     };
   if (!(who in global.db.data.users)) { 
-  conn.reply(m.chat, `${emoji2} El usuario no se encuentra en mi base de datos.`, m)
+  conn.reply(m.chat, `${emoji2} Este  usuario no se encuentra en mi base de datos.`, m)
 return;
   }
   const users = global.db.data.users[who];
   const rob = Math.floor(Math.random() * ro);
-  if (users.exp < rob) return conn.reply(m.chat, `${emoji2} @${who.split`@`[0]} no tiene suficiente *${ro} XP* como para que valga la pena intentar robar.":`, m, {mentions: [who]});
+  if (users.exp < rob) return conn.reply(m.chat, `${emoji2} @${who.split`@`[0]} no tiene suficiente *${ro} XP* no vale la pena robarle.":`, m, {mentions: [who]});
   global.db.data.users[m.sender].exp += rob;
   global.db.data.users[who].exp -= rob;
   conn.reply(m.chat, `${emoji} Le robaste ${rob} XP a @${who.split`@`[0]}`, m, {mentions: [who]});
