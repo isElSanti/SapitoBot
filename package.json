@@ -1,7 +1,7 @@
 {
 "name": "SapitoBot-MD",
 "version": "2.2.0",
-"description": "WhatsApp Bot Multi Device",
+"description": "WABOT MD GO",
 "main": "index.js",
 "type": "module",
 "directories": {
