@@ -12,191 +12,192 @@ Hola! @${userId.split('@')[0]}    ٩(˘◡˘)۶
 Aca tenes la lista de comandos de *${botname}*
 ╭┈ ↷
 │ 💚 _Numero del creador:_ » +595 994 110242 
-│ 💚${botname} _esta en modo_ » Publico
-│✦ Bot » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
+│ 💚 ${botname} _esta en modo_ » Publico
+│ 💚 _Bot_ » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
 │ 💚 _Sapito Bot estuvo activo_ » ${uptime}
 │ 💚 _Usuarios registrados_  » ${totalreg}
-│ 💚 _Sapito Bot tiene » ${totalCommands} _comandos_
+│ 💚 _Sapito Bot tiene_ » ${totalCommands} _comandos_
 │ 💚 _Baileys_ » Multi Device
 ╰─────────────────
-¿Queres ser un *Sub Bot*? Usa el comando *#code* o #qr
+¿Queres ser un *Sub Bot*? Usa el comando *#code* o *#qr*
+     (actualmente la funcion ser sub bot no esta funcionando)
 
 • :･ﾟ⊹˚• \`『 Info-Bot 』\` •˚⊹:･ﾟ•
 
 ❍ Comandos para ver estado e información de Sapito.
 💚 *#help • #menu*
-> ✦ Ver la lista de comandos de la Bot.
+> ✦ Ver la lista de comandos de Sapito Bot.
 💚 *#uptime • #runtime*
-> ✦ Ver tiempo activo o en linea de la Bot.
+> ✦ Ver tiempo activo o en linea de Sapito Bot.
 💚 *#sc • #script*
-> ✦ Link del repositorio oficial de la Bot
+> ✦ Link del repositorio oficial de Sapito Bot
 💚 *#staff • #colaboradores*
-> ✦ Ver la lista de desarrolladores de la Bot.
+> ✦ Ver la lista de desarrolladores del Bot.
 💚 *#serbot • #serbot code*
 > ✦ Crea una sesión de Sub-Bot.
 💚 *#bots • #sockets*
 > ✦ Ver la lista de Sub-Bots activos.
 💚 *#creador*
-> ✦ Contacto del creador de la Bot.
+> ✦ Contacto del creador de Sapito Bot.
 💚 *#status • #estado*
-> ✦ Ver el estado actual de la Bot.
+> ✦ Ver el estado actual de Sapito Bot.
 💚 *#links • #grupos*
-> ✦ Ver los enlaces oficiales de la Bot.
+> ✦ Ver los enlaces oficiales de Sapito Bot.
 💚 *#infobot • #infobot*
-> ✦ Ver la información completa de la Bot.
+> ✦ Ver la información completa del Bot.
 💚 *#sug • #newcommand*
 > ✦ Sugiere un nuevo comando.
 💚 *#p • #ping*
 > ✦ Ver la velocidad de respuesta del Bot.
 💚 *#reporte • #reportar*
-> ✦ Reporta alguna falla o problema de la Bot.
+> ✦ Reporta alguna falla o problema del Bot.
 💚 *#sistema • #system*
 > ✦ Ver estado del sistema de alojamiento.
 💚 *#speed • #speedtest*
-> ✦ Ver las estadísticas de velocidad de la Bot.
+> ✦ Ver las estadísticas de velocidad del Bot.
 💚 *#views • #usuarios*
 > ✦ Ver la cantidad de usuarios registrados en el sistema.
 💚 *#funciones • #totalfunciones*
-> ✦ Ver todas las funciones de la Bot.
+> ✦ Ver todas las funciones de Sapito Bot.
 💚 *#ds • #fixmsgespera*
 > ✦ Eliminar archivos de sesión innecesarios.
 💚 *#editautoresponder*
-> ✦ Configurar un Prompt personalizado de la Bot.
+> ✦ Configurar un Prompt personalizado del Bot.
 
 • :･ﾟ⊹˚• \`『 Buscadores 』\` •˚⊹:･ﾟ•
 
 ❍ Comandos para realizar búsquedas en distintas plataformas.
-ᰔᩚ *#tiktoksearch • #tiktoks*
+🩵 *#tiktoksearch • #tiktoks*
 > ✦ Buscador de videos de tiktok.
-ᰔᩚ *#tweetposts*
+🩵 *#tweetposts*
 > ✦ Buscador de posts de Twitter/X.
-ᰔᩚ *#ytsearch • #yts*
+🩵 *#ytsearch • #yts*
 > ✦ Realiza búsquedas de Youtube.
-ᰔᩚ *#githubsearch*
+🩵 *#githubsearch*
 > ✦ Buscador de usuarios de GitHub.
-ᰔᩚ *#cuevana • #cuevanasearch*
+🩵 *#cuevana • #cuevanasearch*
 > ✦ Buscador de películas/series por Cuevana.
-ᰔᩚ *#google*
+🩵 *#google*
 > ✦ Realiza búsquedas por Google.
-ᰔᩚ *#pin • #pinterest*
+🩵 *#pin • #pinterest*
 > ✦ Buscador de imagenes de Pinterest.
-ᰔᩚ *#imagen • #image*
+🩵*#imagen • #image*
 > ✦ buscador de imagenes de Google.
-ᰔᩚ *#infoanime*
+🩵 *#infoanime*
 > ✦ Buscador de información de anime/manga.
-ᰔᩚ *#hentaisearch • #searchhentai*
+🩵 *#hentaisearch • #searchhentai*
 > ✦ Buscador de capítulos hentai.
-ᰔᩚ #xnxxsearch • #xnxxs*
+🩵 #xnxxsearch • #xnxxs*
 > ✦ Buscador de vídeos de Xnxx.
-ᰔᩚ *#xvsearch • #xvideossearch*
+🩵 *#xvsearch • #xvideossearch*
 > ✦ Buscador de vídeos de Xvideos.
-ᰔᩚ *#pornhubsearch • #phsearch*
+🩵 *#pornhubsearch • #phsearch*
 > ✦ Buscador de videos de Pornhub.
-ᰔᩚ *#npmjs*
+🩵 *#npmjs*
 > ✦ Buscandor de npmjs.
 
 • :･ﾟ⊹˚• \`『 Descargas 』\` •˚⊹:･ﾟ•
 
 ❍ Comandos de descargas para varios archivos.
-ᰔᩚ *#tiktok • #tt*
+🧡 *#tiktok • #tt*
 > ✦ Descarga videos de TikTok.
-ᰔᩚ *#mediafire • #mf*
+🧡 *#mediafire • #mf*
 > ✦ Descargar un archivo de MediaFire.
-ᰔᩚ *#pinvid • #pinvideo* + [enlacé]
+🧡 *#pinvid • #pinvideo* + [enlacé]
 > ✦ Descargar vídeos de Pinterest. 
-ᰔᩚ *#mega • #mg* + [enlacé]
+🧡 *#mega • #mg* + [enlacé]
 > ✦ Descargar un archivo de MEGA.
-ᰔᩚ *#play • #play2*
+🧡 *#play • #play2*
 > ✦ Descarga música/video de YouTube.
-ᰔᩚ *#ytmp3 • #ytmp4*
+🧡 *#ytmp3 • #ytmp4*
 > ✦ Descarga música/video de YouTube mediante url.
-ᰔᩚ *#fb • #facebook*
+🧡 *#fb • #facebook*
 > ✦ Descarga videos de Facebook.
-ᰔᩚ *#twitter • #x* + [Link]
+🧡 *#twitter • #x* + [Link]
 > ✦ Descargar un video de Twitter/X
-ᰔᩚ *#ig • #instagram*
+🧡 *#ig • #instagram*
 > ✦ Descarga contenido de Instagram.
-ᰔᩚ *#tts • #tiktoks* + [busqueda]
+🧡 *#tts • #tiktoks* + [busqueda]
 > ✦ Buscar videos de tiktok 
-ᰔᩚ *#terabox • #tb* + [enlace]
+🧡 *#terabox • #tb* + [enlace]
 > ✦ Descargar archivos por Terabox.
-ᰔᩚ *#ttimg • #ttmp3* + <url>
+🧡 *#ttimg • #ttmp3* + <url>
 > ✦ Descarga fotos/audios de tiktok. 
-ᰔᩚ *#gitclone* + <url> 
+🧡 *#gitclone* + <url> 
 > ✦ Descarga un repositorio de github.
-ᰔᩚ *#xvideosdl*
-> ✦ Descarga videos porno de (Xvideos). 
-ᰔᩚ *#xnxxdl*
-> ✦ Descarga videos porno de (xnxx).
-ᰔᩚ *#apk • #modapk*
+🧡 *#xvideosdl*
+> ✦ Descarga videos +18 de (Xvideos). 
+🧡 *#xnxxdl*
+> ✦ Descarga videos +18 de (xnxx).
+🧡 *#apk • #modapk*
 > ✦ Descarga un apk de Aptoide.
-ᰔᩚ *#tiktokrandom • #ttrandom*
+🧡 *#tiktokrandom • #ttrandom*
 > ✦ Descarga un video aleatorio de tiktok.
-ᰔᩚ *#npmdl • #npmdownloader*
+🧡 *#npmdl • #npmdownloader*
 > ✦ Descarga paquetes de NPMJs.
 
 • :･ﾟ⊹˚• \`『 Economia 』\` •˚⊹:･ﾟ•
 
 ❍ Comandos de economía y rpg para ganar dinero y otros recursos.
-ᰔᩚ *#w • #work • #trabajar*
+🤍 *#w • #work • #trabajar*
 > ✦ Trabaja para ganar ${moneda}.
-ᰔᩚ *#slut • #protituirse*
+🤍 *#slut • #protituirse*
 > ✦ Trabaja como prostituta y gana ${moneda}.
-ᰔᩚ *#cf • #suerte*
+🤍 *#cf • #suerte*
 > ✦ Apuesta tus ${moneda} a cara o cruz.
-ᰔᩚ *#crime • #crimen
+🤍 *#crime • #crimen
 > ✦ Trabaja como ladrón para ganar ${moneda}.
-ᰔᩚ *#ruleta • #roulette • #rt*
+🤍 *#ruleta • #roulette • #rt*
 > ✦ Apuesta ${moneda} al color rojo o negro.
-ᰔᩚ *#casino • #apostar*
+🤍 *#casino • #apostar*
 > ✦ Apuesta tus ${moneda} en el casino.
-ᰔᩚ *#slot*
+🤍 *#slot*
 > ✦ Apuesta tus ${moneda} en la ruleta y prueba tu suerte.
-ᰔᩚ *#cartera • #wallet*
+🤍 *#cartera • #wallet*
 > ✦ Ver tus ${moneda} en la cartera.
-ᰔᩚ *#banco • #bank*
+🤍 *#banco • #bank*
 > ✦ Ver tus ${moneda} en el banco.
-ᰔᩚ *#deposit • #depositar • #d*
+🤍 *#deposit • #depositar • #d*
 > ✦ Deposita tus ${moneda} al banco.
-ᰔᩚ *#with • #retirar • #withdraw*
+🤍 *#with • #retirar • #withdraw*
 > ✦ Retira tus ${moneda} del banco.
-ᰔᩚ *#transfer • #pay*
+🤍 *#transfer • #pay*
 > ✦ Transfiere ${moneda} o XP a otros usuarios.
-ᰔᩚ *#miming • #minar • #mine*
+🤍 *#miming • #minar • #mine*
 > ✦ Trabaja como minero y recolecta recursos.
-ᰔᩚ *#buyall • #buy*
+🤍 *#buyall • #buy*
 > ✦ Compra ${moneda} con tu XP.
-ᰔᩚ *#daily • #diario*
+🤍 *#daily • #diario*
 > ✦ Reclama tu recompensa diaria.
-ᰔᩚ *#cofre*
+🤍 *#cofre*
 > ✦ Reclama un cofre diario lleno de recursos.
-ᰔᩚ *#weekly • #semanal*
+🤍 *#weekly • #semanal*
 > ✦ Reclama tu regalo semanal.
-ᰔᩚ *#monthly • #mensual*
+🤍 *#monthly • #mensual*
 > ✦ Reclama tu recompensa mensual.
-ᰔᩚ *#steal • #robar • #rob*
+🤍 *#steal • #robar • #rob*
 > ✦ Intenta robarle ${moneda} a alguien.
-ᰔᩚ *#robarxp • #robxp*
+🤍 *#robarxp • #robxp*
 > ✦ Intenta robar XP a un usuario.
-ᰔᩚ *#eboard • #baltop*
+🤍 *#eboard • #baltop*
 > ✦ Ver el ranking de usuarios con más ${moneda}.
-ᰔᩚ *#aventura • #adventure*
+🤍 *#aventura • #adventure*
 > ✦ Aventúrate en un nuevo reino y recolecta recursos.
-ᰔᩚ *#curar • #heal*
+🤍 *#curar • #heal*
 > ✦ Cura tu salud para volverte aventurar.
-ᰔᩚ *#cazar • #hunt • #berburu*
+🤍 *#cazar • #hunt • #berburu*
 > ✦ Aventúrate en una caza de animales.
-ᰔᩚ *#inv • #inventario*
+🤍 *#inv • #inventario*
 > ✦ Ver tu inventario con todos tus ítems.
-ᰔᩚ *#mazmorra • #explorar*
+🤍 *#mazmorra • #explorar*
 > ✦ Explorar mazmorras para ganar ${moneda}.
-ᰔᩚ *#halloween*
+🤍 *#halloween*
 > ✦ Reclama tu dulce o truco (Solo en Halloween).
-ᰔᩚ *#christmas • #navidad*
+🤍 *#christmas • #navidad*
 > ✦ Reclama tu regalo navideño (Solo en Navidad).
 
 • :･ﾟ⊹˚• \`『 Gacha 』\` •˚⊹:･ﾟ•
-
+> (nuevo comando reporta si alguno no funciona)
 ❍ Comandos de gacha para reclamar y colecciónar personajes.
 ᰔᩚ *#rollwaifu • #rw • #roll*
 > ✦ Waifu o husbando aleatorio.
@@ -555,7 +556,7 @@ Aca tenes la lista de comandos de *${botname}*
 
 
   *¿Algun comando no funciona?* *reportalo con #report*
-  > _Ejemplo_ #report no funciona el comando play
+  > _Ejemplo_ #report no se manda el menu
 
   `.trim()
 
