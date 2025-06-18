@@ -12,7 +12,7 @@ var handler = async (m, { conn }) => {
     }
 
     global.db.data.users[m.sender].exp += exp;
-    conn.reply(m.chat, `${emoji} *Recompensa Diaria*
+    conn.reply(m.chat, `${emoji} *Recompensas Diaria*
 
 Recursos:
 ✨ Xp : *+${exp}*
