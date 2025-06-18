@@ -11,56 +11,56 @@ let handler = async (m, { conn, args }) => {
 Hola! @${userId.split('@')[0]}    ٩(˘◡˘)۶
 Aca tenes la lista de comandos de *${botname}*
 ╭┈ ↷
-│ᰔᩚ Cliente » @${userId.split('@')[0]}
-│❀ Modo » Publico
+│ 💚 _Numero del creador:_ » +595 994 110242 
+│ 💚${botname} _esta en modo_ » Publico
 │✦ Bot » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
-│ⴵ Activada » ${uptime}
-│✰ Usuarios » ${totalreg}
-│✧ Comandos » ${totalCommands}
-│🜸 Baileys » Multi Device
+│ 💚 _Sapito Bot estuvo activo_ » ${uptime}
+│ 💚 _Usuarios registrados_  » ${totalreg}
+│ 💚 _Sapito Bot tiene » ${totalCommands} _comandos_
+│ 💚 _Baileys_ » Multi Device
 ╰─────────────────
-Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
+¿Queres ser un *Sub Bot*? Usa el comando *#code* o #qr
 
 • :･ﾟ⊹˚• \`『 Info-Bot 』\` •˚⊹:･ﾟ•
 
-❍ Comandos para ver estado e información de la Bot.
-ᰔᩚ *#help • #menu*
+❍ Comandos para ver estado e información de Sapito.
+💚 *#help • #menu*
 > ✦ Ver la lista de comandos de la Bot.
-ᰔᩚ *#uptime • #runtime*
+💚 *#uptime • #runtime*
 > ✦ Ver tiempo activo o en linea de la Bot.
-ᰔᩚ *#sc • #script*
+💚 *#sc • #script*
 > ✦ Link del repositorio oficial de la Bot
-ᰔᩚ *#staff • #colaboradores*
+💚 *#staff • #colaboradores*
 > ✦ Ver la lista de desarrolladores de la Bot.
-ᰔᩚ *#serbot • #serbot code*
+💚 *#serbot • #serbot code*
 > ✦ Crea una sesión de Sub-Bot.
-ᰔᩚ *#bots • #sockets*
+💚 *#bots • #sockets*
 > ✦ Ver la lista de Sub-Bots activos.
-ᰔᩚ *#creador*
+💚 *#creador*
 > ✦ Contacto del creador de la Bot.
-ᰔᩚ *#status • #estado*
+💚 *#status • #estado*
 > ✦ Ver el estado actual de la Bot.
-ᰔᩚ *#links • #grupos*
+💚 *#links • #grupos*
 > ✦ Ver los enlaces oficiales de la Bot.
-ᰔᩚ *#infobot • #infobot*
+💚 *#infobot • #infobot*
 > ✦ Ver la información completa de la Bot.
-ᰔᩚ *#sug • #newcommand*
+💚 *#sug • #newcommand*
 > ✦ Sugiere un nuevo comando.
-ᰔᩚ *#p • #ping*
+💚 *#p • #ping*
 > ✦ Ver la velocidad de respuesta del Bot.
-ᰔᩚ *#reporte • #reportar*
+💚 *#reporte • #reportar*
 > ✦ Reporta alguna falla o problema de la Bot.
-ᰔᩚ *#sistema • #system*
+💚 *#sistema • #system*
 > ✦ Ver estado del sistema de alojamiento.
-ᰔᩚ *#speed • #speedtest*
+💚 *#speed • #speedtest*
 > ✦ Ver las estadísticas de velocidad de la Bot.
-ᰔᩚ *#views • #usuarios*
+💚 *#views • #usuarios*
 > ✦ Ver la cantidad de usuarios registrados en el sistema.
-ᰔᩚ *#funciones • #totalfunciones*
+💚 *#funciones • #totalfunciones*
 > ✦ Ver todas las funciones de la Bot.
-ᰔᩚ *#ds • #fixmsgespera*
+💚 *#ds • #fixmsgespera*
 > ✦ Eliminar archivos de sesión innecesarios.
-ᰔᩚ *#editautoresponder*
+💚 *#editautoresponder*
 > ✦ Configurar un Prompt personalizado de la Bot.
 
 • :･ﾟ⊹˚• \`『 Buscadores 』\` •˚⊹:･ﾟ•
@@ -552,6 +552,11 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 > ✦ Juega un pvp contra otro usuario.
 ᰔᩚ *#ttt*
 > ✦ Crea una sala de juego. 
+
+
+  *¿Algun comando no funciona?* *reportalo con #report*
+  > _Ejemplo_ #report no funciona el comando play
+
   `.trim()
 
   await conn.sendMessage(m.chat, { 
