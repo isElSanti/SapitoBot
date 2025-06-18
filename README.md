@@ -1,9 +1,9 @@
-<h1 align="center">✦ Yυƙι Sυσυ ✦</h1>
+<h1 align="center">SAPITO BOT</h1>
 
  <img src= "https://files.catbox.moe/om9jai.jpg">
     </p>
 
-### **`❕️ Información importante`**
+### **`❕️ Info`**
 
 <details>
  <summary><b> ➮ Info • Bot</b></summary>
@@ -24,7 +24,7 @@
 - [x] Chatbot (simsimi)
 - [x] Chatbot (autoresponder)
 - [x] Crear sticker de image/video/gif/url
-- [x] SubBot (Jadibot)
+- [x] SubBot (actualmente no disponible)
 - [x] Buscador Google
 - [x] Juego RPG
 - [x] Personalizar imagen del menú
