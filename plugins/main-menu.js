@@ -28,6 +28,7 @@ let handler = async (m, { conn, args }) => {
 ║➤ *Numero del creador:* *wa.me/595994110242 (No Bot)*
 ║➤ *Usuarios registrados:* * ${totalreg} *
 ║➤ *Numero del Bot oficial:* *wa.me/5219991402134*
+║➤ *Dudas quejas o sujerencias:* sapitocenter@gmail.com
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
 ¿Queres ser un *Sub Bot*? Usa el comando *#code* o *#qr*
