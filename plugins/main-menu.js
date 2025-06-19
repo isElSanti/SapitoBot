@@ -11,13 +11,13 @@ let handler = async (m, { conn, args }) => {
 Hola! @${userId.split('@')[0]}    ٩(˘◡˘)۶
 Aca tenes la lista de comandos de *${botname}*
 ╭┈ ↷
-│ 💚 _Numero del creador:_ » +595 994 110242 
-│ 💚 ${botname} _esta en modo_ » Publico
-│ 💚 _Bot_ » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
-│ 💚 _Sapito Bot estuvo activo_ » ${uptime}
-│ 💚 _Usuarios registrados_  » ${totalreg}
-│ 💚 _Sapito Bot tiene_ » ${totalCommands} _comandos_
-│ 💚 _Baileys_ » Multi Device
+│ 🐸 _Numero del creador:_ » +595 994 110242 
+│ 🐸 ${botname} _esta en modo_ » Publico
+│ 🐸 _Bot_ » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
+│ 🐸 _Sapito Bot estuvo activo_ » ${uptime}
+│ 🐸 _Usuarios registrados_  » ${totalreg}
+│ 🐸 _Sapito Bot tiene_ » ${totalCommands} _comandos_
+│ 🐸 _Baileys_ » Multi Device
 ╰─────────────────
 ¿Queres ser un *Sub Bot*? Usa el comando *#code* o *#qr*
      (actualmente la funcion ser sub bot no esta funcionando)
@@ -400,7 +400,7 @@ Aca tenes la lista de comandos de *${botname}*
 ᰔᩚ *#impregnate • #preg* + <mencion>
 > ✦ Embarazar a alguien
 ᰔᩚ *#kill* + <mencion>
-> ✦ Toma tu arma y mata a alguien
+> ✦ Toma tu arma y ~mata~ a alguien
 ᰔᩚ *#kiss • #besar* • #kiss2 + <mencion>
 > ✦ Dar un beso
 ᰔᩚ *#laugh* + <mencion>
@@ -444,35 +444,35 @@ Aca tenes la lista de comandos de *${botname}*
 
 ❍ Comandos NSFW (Contenido para adultos)
 ᰔᩚ *#anal* + <mencion>
-> ✦ Hacer un anal
+> ✦ ~Hacer un anal~
 ᰔᩚ *#waifu*
 > ✦ Buscá una waifu aleatorio.
 ᰔᩚ *#bath* + <mencion>
 > ✦ Bañarse
 ᰔᩚ *#blowjob • #mamada • #bj* + <mencion>
-> ✦ Dar una mamada
+> ✦ ~Dar una mamada~
 ᰔᩚ *#boobjob* + <mencion>
 > ✦ Hacer una rusa
 ᰔᩚ *#cum* + <mencion>
 > ✦ Venirse en alguien.
 ᰔᩚ *#fap* + <mencion>
-> ✦ Hacerse una paja
+> ✦ ~Hacerse una paja~
 ᰔᩚ *#ppcouple • #ppcp*
 > ✦ Genera imagenes para amistades o parejas.
 ᰔᩚ *#footjob* + <mencion>
-> ✦ Hacer una paja con los pies
+> ✦ ~Hacer una paja con los pies~
 ᰔᩚ *#fuck • #coger • #fuck2* + <mencion>
-> ✦ Follarte a alguien
+> ✦ ~Follarte a alguien~
 ᰔᩚ *#cafe • #coffe*
 > ✦ Tomate un cafecito con alguien
 ᰔᩚ *#violar • #perra + <mencion>
-> ✦ Viola a alguien
+> ✦ ~Viola a alguien~
 ᰔᩚ *#grabboobs* + <mencion>
-> ✦ Agarrrar tetas
+> ✦ ~Agarrrar tetas~
 ᰔᩚ *#grop* + <mencion>
 > ✦ Manosear a alguien
 ᰔᩚ *#lickpussy* + <mencion>
-> ✦ Lamer un coño
+> ✦ ~Lamer un coño~
 ᰔᩚ *#rule34 • #r34* + [Tags]
 > ✦ Buscar imagenes en Rule34
 ᰔᩚ *#sixnine • #69* + <mencion>
@@ -494,19 +494,19 @@ Aca tenes la lista de comandos de *${botname}*
 ᰔᩚ *#chaqueta • #jalamela*
 > ✦ Hacerte una chaqueta.
 ᰔᩚ *#chiste*
-> ✦ La bot te cuenta un chiste.
+> ✦ Sapito te cuenta un chiste.
 ᰔᩚ *#consejo* 
-> ✦ La bot te da un consejo. 
+> ✦ Sapito te da un consejo. 
 ᰔᩚ *#doxeo • #doxear* + <mencion>
-> ✦ Simular un doxeo falso.
+> ✦ Sapito doxea.
 ᰔᩚ *#facto*
-> ✦ La bot te lanza un facto. 
+> ✦ Sapito te lanza un facto. 
 ᰔᩚ *#formarpareja*
 > ✦ Forma una pareja. 
 ᰔᩚ *#formarpareja5*
 > ✦ Forma 5 parejas diferentes.
 ᰔᩚ *#frase*
-> ✦ La bot te da una frase.
+> ✦ Sapito te da una frase.
 ᰔᩚ *#huevo*
 > ✦ Agarrale el huevo a alguien.
 ᰔᩚ *#chupalo* + <mencion>
@@ -514,27 +514,27 @@ Aca tenes la lista de comandos de *${botname}*
 ᰔᩚ *#aplauso* + <mencion>
 > ✦ Aplaudirle a alguien.
 ᰔᩚ *#marron* + <mencion>
-> ✦ Burlarte del color de piel de un usuario. 
+> ✦ Sapito se burla del color de piel de un usuario. 
 ᰔᩚ *#suicidar*
 > ✦ Suicidate. 
 ᰔᩚ *#iq • #iqtest* + <mencion>
 > ✦ Calcular el iq de alguna persona. 
 ᰔᩚ *#meme*
-> ✦ La bot te envía un meme aleatorio. 
+> ✦ Sapito te envía un meme aleatorio. 
 ᰔᩚ *#morse*
 > ✦ Convierte un texto a codigo morse. 
 ᰔᩚ *#nombreninja*
 > ✦ Busca un nombre ninja aleatorio. 
 ᰔᩚ *#paja • #pajeame* 
-> ✦ La bot te hace una paja.
+> ✦ El bot te hace una ~paja.~
 ᰔᩚ *#personalidad* + <mencion>
-> ✦ La bot busca tu personalidad. 
+> ✦ Sapito busca tu personalidad. 
 ᰔᩚ *#piropo*
 > ✦ Lanza un piropo.
 ᰔᩚ *#pregunta*
-> ✦ Hazle una pregunta a la bot.
+> ✦ Hazle una pregunta a Sapito.
 ᰔᩚ *#ship • #pareja*
-> ✦ La bot te da la probabilidad de enamorarte de una persona. 
+> ✦ Sapito te da la probabilidad de enamorarte de una persona. 
 ᰔᩚ *#sorteo*
 > ✦ Empieza un sorteo. 
 ᰔᩚ *#top*
@@ -542,11 +542,11 @@ Aca tenes la lista de comandos de *${botname}*
 ᰔᩚ *#formartrio* + <mencion>
 > ✦ Forma un trio.
 ᰔᩚ *#ahorcado*
-> ✦ Diviertete con la bot jugando el juego ahorcado.
+> ✦ Diviertete con sapito jugando el juego ahorcado.
 ᰔᩚ *#mates • #matematicas*
 > ✦ Responde las preguntas de matemáticas para ganar recompensas.
 ᰔᩚ *#ppt*
-> ✦ Juega piedra papel o tijeras con la bot.
+> ✦ Juega piedra papel o tijeras con Sapito.
 ᰔᩚ *#sopa • #buscarpalabra*
 > ✦ Juega el famoso juego de sopa de letras.
 ᰔᩚ *#pvp • #suit* + <mencion>
