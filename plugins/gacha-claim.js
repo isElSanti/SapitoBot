@@ -18,7 +18,7 @@ async function saveCharacters(characters) {
     try {
         await fs.writeFile(charactersFilePath, JSON.stringify(characters, null, 2), 'utf-8');
     } catch (error) {
-        throw new Error('❀ No se pudo guardar el archivo characters.json.');
+        throw new Error(' No se pudo guardar el archivo characters.json.');
     }
 }
 
@@ -47,12 +47,12 @@ let handler = async (m, { conn }) => {
             const character = characters.find(c => c.id === characterId);
 
             if (!character) {
-                await conn.reply(m.chat, '《✧》El mensaje citado no es un personaje válido.', m);
+                await conn.reply(m.chat, 'El mensaje citado no es un personaje válido.', m);
                 return;
             }
 
             if (character.user && character.user !== userId) {
-                await conn.reply(m.chat, `《✧》El personaje ya ha sido reclamado por @${character.user.split('@')[0]}, inténtalo a la próxima :v.`, m, { mentions: [character.user] });
+                await conn.reply(m.chat, `El personaje ya ha sido reclamado por @${character.user.split('@')[0]}, inténtalo a la próxima :v.`, m, { mentions: [character.user] });
                 return;
             }
 
