@@ -12,8 +12,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     let name2 = conn.getName(m.sender)
 
     let str = m.mentionedJid.length > 0 || m.quoted 
-        ? `\`${name2}\` está bailando con \`${name || who}\` (ﾉ^ヮ^)ﾉ*:・ﾟ✧` 
-        : `\`${name2}\` está bailando (ﾉ^ヮ^)ﾉ*:・ﾟ✧`
+        ? `\`${name2}\` está bailando con \`${name || who}\` 🕺ﾉ*:・ﾟ✧` 
+        : `\`${name2}\` está bailando 🕺*:・ﾟ✧`
     
     if (m.isGroup) {
         let pp = 'https://raw.githubusercontent.com/The-King-Destroy/Adiciones/main/Contenido/1742861109065.mp4'
