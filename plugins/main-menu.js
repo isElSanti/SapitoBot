@@ -15,10 +15,21 @@ Aca tenes la lista de comandos de *${botname}*
 │ 🐸 ${botname} _esta en modo_ » Publico
 │ 🐸 _Bot_ » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
 │ 🐸 _Sapito Bot estuvo activo_ » ${uptime}
-│ 🐸 _Usuarios registrados_  » ${totalreg}
+│ 🐸 _Usuarios registrados_  » 
 │ 🐸 _Sapito Bot tiene_ » ${totalCommands} _comandos_
 │ 🐸 _Baileys_ » Multi Device
 ╰─────────────────
+╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
+║═ *${botname}*
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+║➤ *✨𝗛ola, @${userId.split('@')[0]} !!*
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+║➤ *Creador del Bot: Bruno Sobrino* 
+║➤ *Numero del creador:* *wa.me/595994110242 (No Bot)*
+║➤ *Usuarios registrados:* * ${totalreg} *
+║➤ *Numero del Bot oficial:* *wa.me/5219991402134*
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+╰══╡✯✯✯✯✯✯✯✯╞══╯
 ¿Queres ser un *Sub Bot*? Usa el comando *#code* o *#qr*
      (actualmente la funcion ser sub bot no esta funcionando)
 
