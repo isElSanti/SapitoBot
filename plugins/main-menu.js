@@ -8,9 +8,9 @@ let handler = async (m, { conn, args }) => {
     let totalCommands = Object.values(global.plugins).filter((v) => v.help && v.tags).length
     
     let txt = `
-// Hola! @${userId.split('@')[0]}    ٩(˘◡˘)۶
-// Aca tenes la lista de comandos de *${botname}*
-//╭┈ ↷
+ Hola! @${userId.split('@')[0]}    ٩(˘◡˘)۶
+ Aca tenes la lista de comandos de *${botname}*
+╭┈ ↷
 │ 🐸 _Numero del creador:_ » +595 994 110242 
 │ 🐸 ${botname} _esta en modo_ » Publico
 │ 🐸 _Bot_ » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
@@ -210,73 +210,73 @@ let handler = async (m, { conn, args }) => {
 • :･ﾟ⊹˚• \`『 Gacha 』\` •˚⊹:･ﾟ•
 > (nuevo comando reporta si alguno no funciona)
 ❍ Comandos de gacha para reclamar y colecciónar personajes.
-ᰔᩚ *#rollwaifu • #rw • #roll*
+💜 *#rollwaifu • #rw • #roll*
 > ✦ Waifu o husbando aleatorio.
-ᰔᩚ  *#claim • #c • #reclamar*
+💜  *#claim • #c • #reclamar*
 > ✦ Reclamar un personaje.
-ᰔᩚ *#harem • #waifus • #claims*
+💜 *#harem • #waifus • #claims*
 > ✦ Ver tus personajes reclamados.
-ᰔᩚ *#charimage • #waifuimage • #wimage* 
+💜 *#charimage • #waifuimage • #wimage* 
 > ✦ Ver una imagen aleatoria de un personaje.
-ᰔᩚ *#charinfo • #winfo • #waifuinfo*
+💜 *#charinfo • #winfo • #waifuinfo*
 > ✦ Ver información de un personaje.
-ᰔᩚ *#givechar • #givewaifu • #regalar*
+💜 *#givechar • #givewaifu • #regalar*
 > ✦ Regalar un personaje a otro usuario.
-ᰔᩚ *#vote • #votar*
+💜 *#vote • #votar*
 > ✦ Votar por un personaje para subir su valor.
-ᰔᩚ *#waifusboard • #waifustop • #topwaifus*
+💜 *#waifusboard • #waifustop • #topwaifus*
 > ✦ Ver el top de personajes con mayor valor.
 
 • :･ﾟ⊹˚• \`『 Stickers 』\` •˚⊹:･ﾟ•
 
 ❍ Comandos para creaciones de stickers etc.
-ᰔᩚ *#sticker • #s*
+🖤 *#sticker • #s*
 > ✦ Crea stickers de (imagen/video)
-ᰔᩚ *#setmeta*
+🖤 *#setmeta*
 > ✦ Estable un pack y autor para los stickers.
-ᰔᩚ *#delmeta*
+🖤 *#delmeta*
 > ✦ Elimina tu pack de stickers.
-ᰔᩚ *#pfp • #getpic*
+🖤 *#pfp • #getpic*
 > ✦ Obtén la foto de perfil de un usuario.
-ᰔᩚ *#qc*
+🖤 *#qc*
 > ✦ Crea stickers con texto o de un usuario.
-ᰔᩚ *#toimg • #img*
+🖤 *#toimg • #img*
 > ✦ Convierte stickers en imagen.
-ᰔᩚ *#brat • #ttp • #attp*︎ 
+🖤 *#brat • #ttp • #attp*︎ 
 > ✦ Crea stickers con texto.
-ᰔᩚ *#emojimix*
+🖤 *#emojimix*
 > ✦ Fuciona 2 emojis para crear un sticker.
-ᰔᩚ *#wm*
+🖤 *#wm*
 > ✦ Cambia el nombre de los stickers.
 
 •:･ﾟ⊹˚• \`『 Herramientas 』\` •˚⊹:･ﾟ•
 
 ❍ Comandos de herramientas con muchas funciones.
-ᰔᩚ *#calcular • #calcular • #cal*
+🤎 *#calcular • #calcular • #cal*
 > ✦ Calcular todo tipo de ecuaciones.
-ᰔᩚ *#tiempo • #clima*
+🤎 *#tiempo • #clima*
 > ✦ Ver el clima de un pais.
-ᰔᩚ *#horario*
+🤎 *#horario*
 > ✦ Ver el horario global de los países.
-ᰔᩚ *#fake • #fakereply*
+🤎 *#fake • #fakereply*
 > ✦ Crea un mensaje falso de un usuario.
-ᰔᩚ *#enhance • #remini • #hd*
+🤎 *#enhance • #remini • #hd*
 > ✦ Mejora la calidad de una imagen.
-ᰔᩚ *#letra*
+🤎 *#letra*
 > ✦ Cambia la fuente de las letras.
-ᰔᩚ *#read • #readviewonce • #ver*
+🤎 *#read • #readviewonce • #ver*
 > ✦ Ver imágenes de una sola vista.
-ᰔᩚ *#whatmusic • #shazam*
+🤎 *#whatmusic • #shazam*
 > ✦ Descubre el nombre de canciones o vídeos.
-ᰔᩚ *#ss • #ssweb*
+🤎 *#ss • #ssweb*
 > ✦ Ver el estado de una página web.
-ᰔᩚ *#length • #tamaño*
+🤎 *#length • #tamaño*
 > ✦ Cambia el tamaño de imágenes y vídeos.
-ᰔᩚ *#say • #decir* + [texto]
+🤎 *#say • #decir* + [texto]
 > ✦ Repetir un mensaje.
-ᰔᩚ *#todoc • #toducument*
+🤎 *#todoc • #toducument*
 > ✦ Crea documentos de (audio, imágenes y vídeos).
-ᰔᩚ *#translate • #traducir • #trad*
+🤎 *#translate • #traducir • #trad*
 > ✦ Traduce palabras en otros idiomas.
 
 • :･ﾟ⊹˚• \`『 Perfil 』\` •˚⊹:･ﾟ•
@@ -382,187 +382,187 @@ let handler = async (m, { conn, args }) => {
 • :･ﾟ⊹˚• \`『 Anime 』\` •˚⊹:･ﾟ•
 
 ❍ Comandos de reacciones de anime.
-ᰔᩚ *#angry • #enojado* + <mencion>
+💙 *#angry • #enojado* + <mencion>
 > ✦ Estar enojado
-ᰔᩚ *#bite* + <mencion>
+💙 *#bite* + <mencion>
 > ✦ Muerde a alguien
-ᰔᩚ *#bleh* + <mencion>
+💙 *#bleh* + <mencion>
 > ✦ Sacar la lengua
-ᰔᩚ *#blush* + <mencion>
+💙 *#blush* + <mencion>
 > ✦ Sonrojarte
-ᰔᩚ *#bored • #aburrido* + <mencion>
+💙 *#bored • #aburrido* + <mencion>
 > ✦ Estar aburrido
-ᰔᩚ *#cry* + <mencion>
+💙 *#cry* + <mencion>
 > ✦ Llorar por algo o alguien
-ᰔᩚ *#cuddle* + <mencion>
+💙 *#cuddle* + <mencion>
 > ✦ Acurrucarse
-ᰔᩚ *#dance* + <mencion>
+💙 *#dance* + <mencion>
 > ✦ Sacate los pasitos prohíbidos
-ᰔᩚ *#drunk* + <mencion>
+💙 *#drunk* + <mencion>
 > ✦ Estar borracho
-ᰔᩚ *#eat • #comer* + <mencion>
-> ✦ Comer algo delicioso
-ᰔᩚ *#facepalm* + <mencion>
+💙 *#eat • #comer* + <mencion>
+> ✦ Comer algo rico
+💙 *#facepalm* + <mencion>
 > ✦ Darte una palmada en la cara
-ᰔᩚ *#happy • #feliz* + <mencion>
+💙 *#happy • #feliz* + <mencion>
 > ✦ Salta de felicidad
-ᰔᩚ *#hug* + <mencion>
-> ✦ Dar un abrazo
-ᰔᩚ *#impregnate • #preg* + <mencion>
+💙 *#hug* + <mencion>
+> ✦ Dar un abrazo a alguien
+💙 *#impregnate • #preg* + <mencion>
 > ✦ Embarazar a alguien
-ᰔᩚ *#kill* + <mencion>
+💙 *#kill* + <mencion>
 > ✦ Toma tu arma y mata a alguien
-ᰔᩚ *#kiss • #besar* • #kiss2 + <mencion>
+💙 *#kiss • #besar* • #kiss2 + <mencion>
 > ✦ Dar un beso
-ᰔᩚ *#laugh* + <mencion>
+💙 *#laugh* + <mencion>
 > ✦ Reírte de algo o alguien
-ᰔᩚ *#lick* + <mencion>
+💙 *#lick* + <mencion>
 > ✦ Lamer a alguien
-ᰔᩚ *#love • #amor* + <mencion>
+💙 *#love • #amor* + <mencion>
 > ✦ Sentirse enamorado
-ᰔᩚ *#pat* + <mencion>
+💙 *#pat* + <mencion>
 > ✦ Acaricia a alguien
-ᰔᩚ *#poke* + <mencion>
+💙 *#poke* + <mencion>
 > ✦ Picar a alguien
-ᰔᩚ *#pout* + <mencion>
+💙 *#pout* + <mencion>
 > ✦ Hacer pucheros
-ᰔᩚ *#punch* + <mencion>
+💙 *#punch* + <mencion>
 > ✦ Dar un puñetazo
-ᰔᩚ *#run* + <mencion>
+💙 *#run* + <mencion>
 > ✦ Correr
-ᰔᩚ *#sad • #triste* + <mencion>
+💙 *#sad • #triste* + <mencion>
 > ✦ Expresar tristeza
-ᰔᩚ *#scared* + <mencion>
+💙 *#scared* + <mencion>
 > ✦ Estar asustado
-ᰔᩚ *#seduce* + <mencion>
+💙 *#seduce* + <mencion>
 > ✦ Seducir a alguien
-ᰔᩚ *#shy • #timido* + <mencion>
+💙 *#shy • #timido* + <mencion>
 > ✦ Sentir timidez
-ᰔᩚ *#slap* + <mencion>
+💙 *#slap* + <mencion>
 > ✦ Dar una bofetada
-ᰔᩚ *#dias • #days*
+💙 *#dias • #days*
 > ✦ Darle los buenos días a alguien 
-ᰔᩚ *#noches • #nights*
+💙 *#noches • #nights*
 > ✦ Darle las buenas noches a alguien 
-ᰔᩚ *#sleep* + <mencion>
+💙 *#sleep* + <mencion>
 > ✦ Tumbarte a dormir
-ᰔᩚ *#smoke* + <mencion>
+💙 *#smoke* + <mencion>
 > ✦ Fumar
-ᰔᩚ *#think* + <mencion>
+💙 *#think* + <mencion>
 > ✦ Pensar en algo
 
 • :･ﾟ⊹˚• \`『 NSFW 』\` •˚⊹:･ﾟ•
 
 ❍ Comandos NSFW (Contenido para adultos)
-ᰔᩚ *#anal* + <mencion>
+❤️‍🔥 *#anal* + <mencion>
 > ✦ Hacer un anal
-ᰔᩚ *#waifu*
+❤️‍🔥 *#waifu*
 > ✦ Buscá una waifu aleatorio.
-ᰔᩚ *#bath* + <mencion>
+❤️‍🔥 *#bath* + <mencion>
 > ✦ Bañarse
-ᰔᩚ *#blowjob • #mamada • #bj* + <mencion>
+❤️‍🔥 *#blowjob • #mamada • #bj* + <mencion>
 > ✦ Dar una mamada
-ᰔᩚ *#boobjob* + <mencion>
+❤️‍🔥 *#boobjob* + <mencion>
 > ✦ Hacer una rusa
-ᰔᩚ *#cum* + <mencion>
+❤️‍🔥 *#cum* + <mencion>
 > ✦ Venirse en alguien.
-ᰔᩚ *#fap* + <mencion>
+❤️‍🔥 *#fap* + <mencion>
 > ✦ Hacerse una paja
-ᰔᩚ *#ppcouple • #ppcp*
+❤️‍🔥 *#ppcouple • #ppcp*
 > ✦ Genera imagenes para amistades o parejas.
-ᰔᩚ *#footjob* + <mencion>
-> ✦ Hacer una paja con los pies
-ᰔᩚ *#fuck • #coger • #fuck2* + <mencion>
+❤️‍🔥 *#footjob* + <mencion>
+> ✦ Hacer una paja con los pies❤
+❤️‍🔥 *#fuck • #coger • #fuck2* + <mencion>
 > ✦ Follarte a alguien
-ᰔᩚ *#cafe • #coffe*
+❤️‍🔥 *#cafe • #coffe*
 > ✦ Tomate un cafecito con alguien
-ᰔᩚ *#violar • #perra + <mencion>
+❤️‍🔥 *#violar • #perra + <mencion>
 > ✦ Viola a alguien
-ᰔᩚ *#grabboobs* + <mencion>
+❤️‍🔥 *#grabboobs* + <mencion>
 > ✦ Agarrrar tetas
-ᰔᩚ *#grop* + <mencion>
+❤️‍🔥 *#grop* + <mencion>
 > ✦ Manosear a alguien
-ᰔᩚ *#lickpussy* + <mencion>
+❤️‍🔥 *#lickpussy* + <mencion>
 > ✦ Lamer un coño
-ᰔᩚ *#rule34 • #r34* + [Tags]
+❤️‍🔥 *#rule34 • #r34* + [Tags]
 > ✦ Buscar imagenes en Rule34
-ᰔᩚ *#sixnine • #69* + <mencion>
+❤️‍🔥 *#sixnine • #69* + <mencion>
 > ✦ Haz un 69 con alguien
-ᰔᩚ *#spank • #nalgada* + <mencion>
+❤️‍🔥 *#spank • #nalgada* + <mencion>
 > ✦ Dar una nalgada
-ᰔᩚ *#suckboobs* + <mencion>
+❤️‍🔥 *#suckboobs* + <mencion>
 > ✦ Chupar tetas
-ᰔᩚ *#undress • #encuerar* + <mencion>
+❤️‍🔥 *#undress • #encuerar* + <mencion>
 > ✦ Desnudar a alguien
-ᰔᩚ *#yuri • #tijeras* + <mencion>
+❤️‍🔥 *#yuri • #tijeras* + <mencion>
 > ✦ Hacer tijeras.
 
 • :･ﾟ⊹˚• \`『 Juegos 』\` •˚⊹:･ﾟ•
 
 ❍ Comandos de juegos para jugar con tus amigos.
-ᰔᩚ *#amistad • #amigorandom* 
+💛 *#amistad • #amigorandom* 
 > ✦ hacer amigos con un juego. 
-ᰔᩚ *#chaqueta • #jalamela*
+💛 *#chaqueta • #jalamela*
 > ✦ Hacerte una chaqueta.
-ᰔᩚ *#chiste*
-> ✦ La bot te cuenta un chiste.
-ᰔᩚ *#consejo* 
-> ✦ La bot te da un consejo. 
-ᰔᩚ *#doxeo • #doxear* + <mencion>
+💛 *#chiste*
+> ✦ Sapito te cuenta un chiste.
+💛 *#consejo* 
+> ✦ Sapito te da un consejo. 
+💛 *#doxeo • #doxear* + <mencion>
 > ✦ Simular un doxeo falso.
-ᰔᩚ *#facto*
-> ✦ La bot te lanza un facto. 
-ᰔᩚ *#formarpareja*
+💛 *#facto*
+> ✦ sapito te lanza un facto. 
+💛 *#formarpareja*
 > ✦ Forma una pareja. 
-ᰔᩚ *#formarpareja5*
+💛 *#formarpareja5*
 > ✦ Forma 5 parejas diferentes.
-ᰔᩚ *#frase*
+💛 *#frase*
 > ✦ La bot te da una frase.
-ᰔᩚ *#huevo*
+💛 *#huevo*
 > ✦ Agarrale el huevo a alguien.
-ᰔᩚ *#chupalo* + <mencion>
+💛 *#chupalo* + <mencion>
 > ✦ Hacer que un usuario te la chupe.
-ᰔᩚ *#aplauso* + <mencion>
+💛 *#aplauso* + <mencion>
 > ✦ Aplaudirle a alguien.
-ᰔᩚ *#marron* + <mencion>
+💛 *#marron* + <mencion>
 > ✦ Burlarte del color de piel de un usuario. 
-ᰔᩚ *#suicidar*
+💛 *#suicidar*
 > ✦ Suicidate. 
-ᰔᩚ *#iq • #iqtest* + <mencion>
+💛 *#iq • #iqtest* + <mencion>
 > ✦ Calcular el iq de alguna persona. 
-ᰔᩚ *#meme*
-> ✦ La bot te envía un meme aleatorio. 
-ᰔᩚ *#morse*
+💛 *#meme*
+> ✦ sapito te envía un meme aleatorio. 
+💛 *#morse*
 > ✦ Convierte un texto a codigo morse. 
-ᰔᩚ *#nombreninja*
+💛 *#nombreninja*
 > ✦ Busca un nombre ninja aleatorio. 
-ᰔᩚ *#paja • #pajeame* 
-> ✦ La bot te hace una paja.
-ᰔᩚ *#personalidad* + <mencion>
-> ✦ La bot busca tu personalidad. 
-ᰔᩚ *#piropo*
+💛 *#paja • #pajeame* 
+> ✦ el bot te hace una paja.
+💛 *#personalidad* + <mencion>
+> ✦ el bot busca tu personalidad. 
+💛 *#piropo*
 > ✦ Lanza un piropo.
-ᰔᩚ *#pregunta*
-> ✦ Hazle una pregunta a la bot.
-ᰔᩚ *#ship • #pareja*
-> ✦ La bot te da la probabilidad de enamorarte de una persona. 
-ᰔᩚ *#sorteo*
+💛 *#pregunta*
+> ✦ Hazle una pregunta al  bot.
+💛 *#ship • #pareja*
+> ✦ el bot te da la probabilidad de enamorarte de una persona. 
+💛 *#sorteo*
 > ✦ Empieza un sorteo. 
-ᰔᩚ *#top*
+💛 *#top*
 > ✦ Empieza un top de personas.
-ᰔᩚ *#formartrio* + <mencion>
+💛 *#formartrio* + <mencion>
 > ✦ Forma un trio.
-ᰔᩚ *#ahorcado*
-> ✦ Diviertete con la bot jugando el juego ahorcado.
-ᰔᩚ *#mates • #matematicas*
+💛 *#ahorcado*
+> ✦ Diviertete con Sapito  jugando el juego ahorcado.
+💛 *#mates • #matematicas*
 > ✦ Responde las preguntas de matemáticas para ganar recompensas.
-ᰔᩚ *#ppt*
+💛 *#ppt*
 > ✦ Juega piedra papel o tijeras con la bot.
-ᰔᩚ *#sopa • #buscarpalabra*
+💛 *#sopa • #buscarpalabra*
 > ✦ Juega el famoso juego de sopa de letras.
-ᰔᩚ *#pvp • #suit* + <mencion>
+💛 *#pvp • #suit* + <mencion>
 > ✦ Juega un pvp contra otro usuario.
-ᰔᩚ *#ttt*
+💛 *#ttt*
 > ✦ Crea una sala de juego. 
 
 
