@@ -11,13 +11,13 @@ let handler = async (m, { conn, args }) => {
 Hola! @${userId.split('@')[0]}    ٩(˘◡˘)۶
 Aca tenes la lista de comandos de *${botname}*
 ╭┈ ↷
-│ 💚 _Numero del creador:_ » +595 994 110242 
-│ 💚 ${botname} _esta en modo_ » Publico
-│ 💚 _Bot_ » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
-│ 💚 _Sapito Bot estuvo activo_ » ${uptime}
-│ 💚 _Usuarios registrados_  » ${totalreg}
-│ 💚 _Sapito Bot tiene_ » ${totalCommands} _comandos_
-│ 💚 _Baileys_ » Multi Device
+│ 🐸 _Numero del creador:_ » +595 994 110242 
+│ 🐸 ${botname} _esta en modo_ » Publico
+│ 🐸 _Bot_ » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
+│ 🐸 _Sapito Bot estuvo activo_ » ${uptime}
+│ 🐸 _Usuarios registrados_  » ${totalreg}
+│ 🐸 _Sapito Bot tiene_ » ${totalCommands} _comandos_
+│ 🐸 _Baileys_ » Multi Device
 ╰─────────────────
 ¿Queres ser un *Sub Bot*? Usa el comando *#code* o *#qr*
      (actualmente la funcion ser sub bot no esta funcionando)
