@@ -8,7 +8,7 @@ let handler = async (m, { conn, args }) => {
     let totalCommands = Object.values(global.plugins).filter((v) => v.help && v.tags).length
     
     let txt = `
-// Hola! @${userId.split('@')[0]}    ٩(˘◡˘)۶/
+Hola! @${userId.split('@')[0]}    ٩(˘◡˘)۶
  Aca tenes la lista de comandos de *${botname}*
 ╭┈ ↷
 │ 🐸 _Numero del creador:_ » +595 994 110242 
@@ -317,67 +317,67 @@ let handler = async (m, { conn, args }) => {
 • :･ﾟ⊹˚• \`『 Grupos 』\` •˚⊹:･ﾟ•
 
 ❍ Comandos de grupos para una mejor gestión de ellos.
-ᰔᩚ *#hidetag*
+🩶 *#hidetag*
 > ✦ Envia un mensaje mencionando a todos los usuarios
-ᰔᩚ *#gp • #infogrupo*
+🩶 *#gp • #infogrupo*
 > ✦  Ver la Informacion del grupo.
-ᰔᩚ *#linea • #listonline*
+🩶 *#linea • #listonline*
 > ✦ Ver la lista de los usuarios en linea.
-ᰔᩚ *#setwelcome*
+🩶 *#setwelcome*
 > ✦ Establecer un mensaje de bienvenida personalizado.
-ᰔᩚ *#setbye*
+🩶 *#setbye*
 > ✦ Establecer un mensaje de despedida personalizado.
-ᰔᩚ *#link*
+🩶 *#link*
 > ✦ El bot envia el link del grupo.
-ᰔᩚ *admins • admin*
+🩶 *admins • admin*
 > ✦ Mencionar a los admins para solicitar ayuda.
-ᰔᩚ *#restablecer • #revoke*
+🩶 *#restablecer • #revoke*
 > ✦ Restablecer el enlace del grupo.
-ᰔᩚ *#grupo • #group* [open / abrir]
+🩶 *#grupo • #group* [open / abrir]
 > ✦ Cambia ajustes del grupo para que todos los usuarios envien mensaje.
-ᰔᩚ *#grupo • #gruop* [close / cerrar]
+🩶 *#grupo • #gruop* [close / cerrar]
 > ✦ Cambia ajustes del grupo para que solo los administradores envien mensaje.
-ᰔᩚ *#kick* [número / mension]
+🩶 *#kick* [número / mension]
 > ✦ Elimina un usuario de un grupo.
-ᰔᩚ *#add • #añadir • #agregar* [número]
+🩶 *#add • #añadir • #agregar* [número]
 > ✦ Invita a un usuario a tu grupo.
-ᰔᩚ *#promote* [mension / etiquetar]
+🩶 *#promote* [mension / etiquetar]
 > ✦ El bot dara administrador al usuario mencionando.
-ᰔᩚ *#demote* [mension / etiquetar]
+🩶 *#demote* [mension / etiquetar]
 > ✦ El bot quitara administrador al usuario mencionando.
-ᰔᩚ *#gpbanner • #groupimg*
+🩶 *#gpbanner • #groupimg*
 > ✦ Cambiar la imagen del grupo.
-ᰔᩚ *#gpname • #groupname*
+🩶 *#gpname • #groupname*
 > ✦ Cambiar el nombre del grupo.
-ᰔᩚ *#gpdesc • #groupdesc*
+🩶 *#gpdesc • #groupdesc*
 > ✦ Cambiar la descripción del grupo.
-ᰔᩚ *#advertir • #warn • #warning*
+🩶 *#advertir • #warn • #warning*
 > ✦ Darle una advertencia aún usuario.
-ᰔᩚ ︎*#unwarn • #delwarn*
+🩶 ︎*#unwarn • #delwarn*
 > ✦ Quitar advertencias.
-ᰔᩚ *#advlist • #listadv*
+🩶 *#advlist • #listadv*
 > ✦ Ver lista de usuarios advertidos.
-ᰔᩚ *#bot on*
+🩶 *#bot on*
 > ✦ Enciende el bot en un grupo.
 ᰔᩚ *#bot off*
 > ✦ Apaga el bot en un grupo.
-ᰔᩚ *#mute* [mension / etiquetar]
+🩶 *#mute* [mension / etiquetar]
 > ✦ El bot elimina los mensajes del usuario.
-ᰔᩚ *#unmute* [mension / etiquetar]
+🩶 *#unmute* [mension / etiquetar]
 > ✦ El bot deja de eliminar los mensajes del usuario.
-ᰔᩚ *#encuesta • #poll*
+🩶 *#encuesta • #poll*
 > ✦ Crea una encuesta.
-ᰔᩚ *#delete • #del*
+🩶 *#delete • #del*
 > ✦ Elimina mensaje de otros usuarios.
-ᰔᩚ *#fantasmas*
+🩶 *#fantasmas*
 > ✦ Ver lista de inactivos del grupo.
-ᰔᩚ *#kickfantasmas*
+🩶 *#kickfantasmas*
 > ✦ Elimina a los inactivos del grupo.
-ᰔᩚ *#invocar • #tagall • #todos*
+🩶 *#invocar • #tagall • #todos*
 > ✦ Invoca a todos los usuarios de un grupo.
-ᰔᩚ *#setemoji • #setemo*
+🩶 *#setemoji • #setemo*
 > ✦ Cambia el emoji que se usa en la invitación de usuarios.
-ᰔᩚ *#listnum • #kicknum*
+🩶 *#listnum • #kicknum*
 > ✦ Elimine a usuario por el prefijo de país.
 
 • :･ﾟ⊹˚• \`『 Anime 』\` •˚⊹:･ﾟ•
