@@ -8,7 +8,7 @@ let handler = async (m, { conn, args }) => {
     let totalCommands = Object.values(global.plugins).filter((v) => v.help && v.tags).length
     
     let txt = `
-/ Hola! @${userId.split('@')[0]}    ٩(˘◡˘)۶
+// Hola! @${userId.split('@')[0]}    ٩(˘◡˘)۶/
  Aca tenes la lista de comandos de *${botname}*
 ╭┈ ↷
 │ 🐸 _Numero del creador:_ » +595 994 110242 
