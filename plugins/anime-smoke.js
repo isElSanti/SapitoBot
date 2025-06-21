@@ -19,9 +19,9 @@ let handler = async (m, { conn, usedPrefix }) => {
 
     let str;
     if (m.mentionedJid.length > 0) {
-        str = `\`${name2}\` *está fumando con* \`${name || who}\`.`;
+        str = `\`${name2}\` *está fumando un buen porro con* \`${name || who}\`.`;
     } else if (m.quoted) {
-        str = `\`${name2}\` *está fumando con* \`${name || who}\`.`;
+        str = `\`${name2}\` *está fumando un buen porro con* \`${name || who}\`.`;
     } else {
         str = `\`${name2}\` *está fumando*.`.trim();
     }
