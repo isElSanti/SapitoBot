@@ -21,7 +21,7 @@ var hawemod = [
     "System hyjacking on process.. \\n Conecting to Server error to find 404 ",
     "Device successfully connected... \\n Riciving data...",
     "Data hyjacked from divice 100% completed \\n killing all evidence killing all malwares...",
-    " HACKING COMPLETED ",
+    " HACKING COMPLETED  ",
     " SENDING LOG DOCUMENTS...",
     " SUCCESSFULLY SENT DATA AND Connection disconnected",
     "BACKLOGS CLEARED"
